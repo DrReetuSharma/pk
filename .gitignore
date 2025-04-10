@@ -20,3 +20,25 @@ instance/
 # Ignore the Docker image or container files
 *.dockerignore
 Dockerfile*
+# Ignore virtual environment directory
+venv/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore the Flask app's instance directory
+instance/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore other IDE configurations
+.idea/
+.vscode/
+
+# Ignore the Docker image or container files
+*.dockerignore
+Dockerfile*
